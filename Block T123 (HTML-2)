@@ -1,0 +1,37 @@
+<!--NOLIM--><!--NLM046--><!--settings{"closeBlockColor":"#000000","closeButtonColor":"#000000"}settingsend--> 
+<script> 
+(function() { function t_ready(e) { "loading" != document.readyState ? e() : document.addEventListener ? document.addEventListener("DOMContentLoaded", e) : document.attachEvent("onreadystatechange", function() { "loading" != document.readyState && e() }) } t_ready(function() { let t281List = document.querySelectorAll(".t281");
+if (t281List.length > 0) { t281List.forEach(function(item) { let t = item.querySelector('.t-popup .t-popup__close');
+let n = t.cloneNode(!0);
+item.querySelector('.t-popup__container').append(n);
+n.addEventListener("click", function() { t.click(); }, !1);
+t.addEventListener("click", function() { n.click(); }, !1); }); }
+let t702List = document.querySelectorAll(".t702"); 
+if (t702List.length > 0) { t702List.forEach(function(item) { let t = item.querySelector('.t-popup .t-popup__close'); 
+let n = t.cloneNode(!0); 
+item.querySelector('.t-popup__container').append(n); 
+n.addEventListener("click", function() { t.click(); }, !1);
+t.addEventListener("click", function() { n.click(); }, !1); }); }
+let t756List = document.querySelectorAll(".t756"); 
+if (t756List.length > 0) { t756List.forEach(function(item)
+{ let t = item.querySelector('.t-popup .t-popup__close'); 
+let n = t.cloneNode(!0); 
+item.querySelector('.t-popup__container').append(n);
+n.addEventListener("click", function() { t.click(); }, !1);
+t.addEventListener("click", function() { n.click(); }, !1); }); } 
+let t390List = document.querySelectorAll(".t390");
+if (t390List.length > 0) { t390List.forEach(function(item) { let t = item.querySelector('.t-popup .t-popup__close'); 
+let n = t.cloneNode(!0); 
+item.querySelector('.t-popup__container').append(n);
+n.addEventListener("click", function() { t.click(); }, !1);
+t.addEventListener("click", function() { n.click(); }, !1); }); }
+let t1014List = document.querySelectorAll(".t1014"); 
+if (t1014List.length > 0) { t1014List.forEach(function(item) { let t = item.querySelector('.t-popup .t-popup__close');
+let n = t.cloneNode(!0); 
+item.querySelector('.t-popup__container').append(n);
+n.addEventListener("click", function() { t.click(); }, !1);
+t.addEventListener("click", function() { n.click(); }, !1); }); } }); }());
+</script>
+<style> 
+@media screen and (min-width: 561px) { .t702 .t-popup>.t-popup__close, .t281 .t-popup>.t-popup__close, .t756 .t-popup>.t-popup__close, .t390 .t-popup>.t-popup__close, .t1014 .t-popup>.t-popup__close { display: none; } .t702 .t-popup__container>.t-popup__close, .t281 .t-popup__container>.t-popup__close, .t756 .t-popup__container>.t-popup__close, .t390 .t-popup__container>.t-popup__close, .t1014 .t-popup__container>.t-popup__close { display: flex !important; } } 
+@media screen and (max-width: 560px) { .t390 .t-popup>.t-popup__close { display: none !important; } .t390 .t-popup__container>.t-popup__close { display: flex !important; } .t702 .t-popup>.t-popup__close, .t281 .t-popup>.t-popup__close, .t756 .t-popup>.t-popup__close, .t1014 .t-popup>.t-popup__close { display: flex !important; } .t702 .t-popup__container>.t-popup__close, .t281 .t-popup__container>.t-popup__close, .t756 .t-popup__container>.t-popup__close, .t1014 .t-popup__container>.t-popup__close { display: none !important; } .t281 .t-popup__close, .t702 .t-popup__close, .t756 .t-popup__close, .t1014 .t-popup__close { background: #000000 !important; } .t281 .t-popup__close g, .t702 .t-popup__close g, .t756 .t-popup__close g, .t390 .t-popup__close g, .t1014 .t-popup__close g { fill: #000000 !important; } } </style>
